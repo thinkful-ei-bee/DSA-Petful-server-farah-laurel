@@ -36,7 +36,19 @@ cats.enqueue(
     breed: "Burmese",
     story: "Hurricane left him stranded."
   }
-)
+);
+
+cats.enqueue(
+  {
+    imageURL:"https://allergytocats.net/wp-content/uploads/2018/06/Siamese-cat.jpg", 
+    imageDescription: "Siamese cat lying on carpet.",
+    name: "Mocha",
+    sex: "Female",
+    age: 2,
+    breed: "Siamese",
+    story: "Found as stray"
+  }
+);
 
 console.log(cats)
 
