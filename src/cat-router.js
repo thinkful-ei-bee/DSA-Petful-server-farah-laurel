@@ -2,7 +2,7 @@
 
 const express = require('express');
 
-const cats  = require('../cats.json')
+const {cats}  = require('./catData');
 
 const catRouter = express.Router();
 
@@ -12,7 +12,11 @@ catRouter
       res.json(cats);
   })
 
-
-
+  .delete((req, res) => {
+    cats.dequeue()
+      .then(cat => {
+        return res.json({ cats })
+      })
+  })
 
 module.exports = catRouter;
