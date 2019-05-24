@@ -6,6 +6,7 @@ const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 
 const dogRouter = require('./dog-router');
+const catRouter = require('./cat-router');
 
 const app = express()
 
@@ -17,7 +18,7 @@ app.use(morgan(morganOption))
 app.use(cors())
 app.use(helmet())
 
-//app.use(catRouter);
+app.use(catRouter);
 app.use(dogRouter);
 
 
