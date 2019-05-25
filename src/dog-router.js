@@ -12,11 +12,11 @@ dogRouter
     res.json(dogs)
   })
 
+dogRouter
+  .route('/api/dog/delete')
   .delete((req, res) => {
-    dogs.dequeue()
-      .then(dog => {
-        return res.json({ dogs })
-      })
+    dogs.dequeue();
+    return res.json(dogs)
   })
 
 module.exports = dogRouter;

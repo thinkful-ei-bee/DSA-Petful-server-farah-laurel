@@ -12,11 +12,11 @@ catRouter
       res.json(cats);
   })
 
+catRouter
+  .route('/api/cat/delete')
   .delete((req, res) => {
-    cats.dequeue()
-      .then(cat => {
-        return res.json({ cats })
-      })
+    cats.dequeue();
+    return res.json(cats)
   })
 
 module.exports = catRouter;
