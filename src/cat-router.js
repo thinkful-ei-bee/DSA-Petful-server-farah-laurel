@@ -9,7 +9,7 @@ const catRouter = express.Router();
 catRouter
   .route('/api/cat')
   .get((req, res) => {
-      res.json(cats);
+      return res.json(cats);
   })
 
 catRouter

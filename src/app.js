@@ -7,6 +7,7 @@ const { NODE_ENV } = require('./config')
 
 const dogRouter = require('./dog-router');
 const catRouter = require('./cat-router');
+const userRouter = require('./user-Router');
 
 const app = express()
 
@@ -20,7 +21,7 @@ app.use(helmet())
 
 app.use(catRouter);
 app.use(dogRouter);
-
+app.use(userRouter);
 
 app.use(function errorHandler(error, req, res, next){
     let response 

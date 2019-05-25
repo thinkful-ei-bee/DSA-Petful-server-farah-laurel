@@ -9,7 +9,7 @@ const dogRouter = express.Router();
 dogRouter
   .route('/api/dog')
   .get((req, res) => {
-    res.json(dogs)
+    return res.json(dogs)
   })
 
 dogRouter
