@@ -74,6 +74,4 @@ dogs.enqueue(
     }
 )
 
-console.log(dogs)
-
 module.exports = { dogs };

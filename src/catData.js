@@ -50,6 +50,4 @@ cats.enqueue(
   }
 );
 
-console.log(cats)
-
 module.exports = { cats };
