@@ -15,7 +15,10 @@ dogRouter
 dogRouter
   .route('/api/dog/delete')
   .delete((req, res) => {
-    dogs.dequeue();
+    // places "deleted" dog at back of the queue so it's not deleted permanently 
+    dogs.enqueue(
+      dogs.dequeue()
+    )
     return res.json(dogs)
   })
 
