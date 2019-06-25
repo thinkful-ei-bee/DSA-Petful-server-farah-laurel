@@ -1,26 +1,42 @@
-# Express Boilerplate!
+# Petful
+Petful is an animal rescue app that allows you to adopt cats or dogs and give them a forever-home. 
 
-This is a boilerplate project used for starting new projects!
+Created by Farah Gustafson and Laurel Butler
 
-## Set up
+### API Documentation
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+## GET /api/dog
+Returns data for all dogs in the database. Returns dogs with the keys of 'imageURL', 'imageDescription', 'name', 'sex', 'age', 'breed', and 'story'. 
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+## GET /api/cat
+Returns data for all cats in the database. Returns cats with the keys of 'imageURL', 'imageDescription', 'name', 'sex', 'age', 'breed', and 'story'. 
 
-## Scripts
+## Live App: 
+[Petful](https://farah-laurel-petful-app.now.sh/)
 
-Start the application `npm start`
+## Client:
+[Click here for the Client](https://github.com/thinkful-ei-bee/DSA-Petful-Farah-Laurel-Client)
 
-Start nodemon for the application `npm run dev`
+## Tech
+- React
+- Nodejs
+- Express
 
-Run the tests `npm test`
+### Landing Page: 
+![Landing Page](src/Screenshots/homepage.png?raw=true)
 
-## Deploying
+### Adopt a dog:
+![Adopt a cat](src/Screenshots/cat.png?raw=true)
 
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+### Adopt a cat:
+![Adopt a dog](src/Screenshots/dog.png?raw=true)
+
+
+### Available scripts: 
+
+Start the application npm start
+
+Start nodemon for the application npm run dev
+
+Run the tests mode npm test
+
