@@ -3,12 +3,12 @@ Petful is an animal rescue app that allows you to adopt cats or dogs and give th
 
 Created by Farah Gustafson and Laurel Butler
 
-### API Documentation
+## API Documentation
 
-## GET /api/dog
+### GET /api/dog
 Returns data for all dogs in the database. Returns dogs with the keys of 'imageURL', 'imageDescription', 'name', 'sex', 'age', 'breed', and 'story'. 
 
-## GET /api/cat
+### GET /api/cat
 Returns data for all cats in the database. Returns cats with the keys of 'imageURL', 'imageDescription', 'name', 'sex', 'age', 'breed', and 'story'. 
 
 ## Live App: 
