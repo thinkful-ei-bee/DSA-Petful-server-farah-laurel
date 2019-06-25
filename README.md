@@ -22,6 +22,7 @@ Returns data for all cats in the database. Returns cats with the keys of 'imageU
 - Nodejs
 - Express
 
+## Screenshots:
 ### Landing Page: 
 ![Landing Page](src/Screenshots/homepage.png?raw=true)
 
