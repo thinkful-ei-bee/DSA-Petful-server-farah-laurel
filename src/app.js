@@ -6,9 +6,9 @@ const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const {CLIENT_ORIGIN} = require('./config')
 
-const dogRouter = require('./dog-router');
-const catRouter = require('./cat-router');
-const userRouter = require('./user-Router');
+const dogRouter = require('./Dog/dog-router');
+const catRouter = require('./Cat/cat-router');
+const userRouter = require('./User/user-Router');
 
 const app = express()
 
