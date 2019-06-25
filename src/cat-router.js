@@ -15,6 +15,7 @@ catRouter
 catRouter
   .route('/api/cat/delete')
   .delete((req, res) => {
+    // places "deleted" cat at back of the queue so it's not deleted permanently 
     cats.enqueue(
       cats.dequeue()
       )
