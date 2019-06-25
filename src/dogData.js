@@ -4,7 +4,7 @@ const dogs = new Queue();
 
 dogs.enqueue(
   {
-    imageURL: "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
+    imageURL: "https://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
     imageDescription: "A smiling golden-brown golden retreiver listening to music.",
     name: "Tito",
     sex: "Male",
@@ -28,7 +28,7 @@ dogs.enqueue(
 
 dogs.enqueue(
   {
-    imageURL: "http://cdn.akc.org/content/article-body-image/newfoundland_dog_pictures.jpg",
+    imageURL: "https://cdn.akc.org/content/article-body-image/newfoundland_dog_pictures.jpg",
     imageDescription: "A black Newfoundland dog smiling at camera",
     name: "Hodor",
     sex: "Male",
@@ -40,7 +40,7 @@ dogs.enqueue(
 
 dogs.enqueue(
   {
-    imageURL: "http://cdn.akc.org/content/article-body-image/basset_hound_dog_pictures_.jpg",
+    imageURL: "https://cdn.akc.org/content/article-body-image/basset_hound_dog_pictures_.jpg",
     imageDescription: "A Basset Hound chewing on grass ",
     name: "Cuervo",
     sex: "Female",
@@ -52,7 +52,7 @@ dogs.enqueue(
 
 dogs.enqueue(
   {
-    imageURL: "http://cdn.akc.org/content/article-body-image/golden_puppy_dog_pictures.jpg",
+    imageURL: "https://cdn.akc.org/content/article-body-image/golden_puppy_dog_pictures.jpg",
     imageDescription: "An adorable golden retriever puppy.",
     name: "Jambo",
     sex: "Male",
@@ -64,7 +64,7 @@ dogs.enqueue(
 
 dogs.enqueue(
   {
-    imageURL: "http://cdn.akc.org/content/article-body-image/husky_sideways_dog_pictures_.jpg",
+    imageURL: "https://cdn.akc.org/content/article-body-image/husky_sideways_dog_pictures_.jpg",
     imageDescription: "A goofy Alaskan Husky",
     name: "Zeus",
     sex: "Male",
