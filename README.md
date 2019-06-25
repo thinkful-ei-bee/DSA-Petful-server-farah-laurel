@@ -11,6 +11,12 @@ Returns data for all dogs in the database. Returns dogs with the keys of 'imageU
 ### GET /api/cat
 Returns data for all cats in the database. Returns cats with the keys of 'imageURL', 'imageDescription', 'name', 'sex', 'age', 'breed', and 'story'. 
 
+### DELETE /api/dog
+Removes the dog from the front of the line.
+
+### DELETE /api/cat
+Removes the cat from the front of the line.
+
 ## Live App: 
 [Petful](https://farah-laurel-petful-app.now.sh/)
 
